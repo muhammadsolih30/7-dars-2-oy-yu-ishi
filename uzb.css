@@ -1032,15 +1032,15 @@ header {
     height: 15px;
 }
 
-.ikkichi-elimit{
+.ikkichi-elimit {
     width: 100%;
-    height:600px;
+    height: 600px;
     margin-bottom: 100px;
     display: flex;
     gap: 20px;
 }
 
-.child-bosh-qasi{
+.child-bosh-qasi {
     flex: 1;
     background-color: white;
     height: 100%;
@@ -1049,15 +1049,15 @@ header {
     padding-left: 20px;
 }
 
-.child-bosh-qasi img{
-    width:200px ;
+.child-bosh-qasi img {
+    width: 200px;
     height: 200px;
     margin: 50px 0 20px;
     border-radius: 50%;
-    
+
 }
 
-.el{
+.el {
     width: 100%;
     height: 100%;
     display: flex;
@@ -1065,30 +1065,114 @@ header {
     flex-direction: column;
 }
 
-.fa-quote-right{
+.fa-quote-right {
     color: rgb(203, 132, 0);
 }
 
-.el p{
+.el p {
     font-size: 20px;
 }
 
-.el ul p{
+.el ul p {
     text-align: center;
     margin: 2px;
     font-size: 20px;
 }
 
-.rasm-png{
+.rasm-png {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 70px;
-   /* margin: 50px; */
+    /* margin: 50px; */
 }
 
-.rasm-png img{
+.rasm-png img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+.tuqizinchi-bulim {
+    width: 1521px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(251, 0, 255, 0.016);
+}
+
+
+.oq-ichida {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.chala {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(220, 127, 127);
+    padding-left: 100px;
+}
+
+.chala h1 {
+    text-transform: lowercase;
+    color: white;
+    font-size: 55px;
+    text-align: left;
+}
+
+.qolmasin {
+    flex: 1;
+    height: 100%;
+    padding: 50px;
+    background-color: white;
+}
+
+.qolmasin h1 {
+    font-size: 50px;
+    margin: 50px 0 50px;
+}
+
+
+.birinchisi-krish {
+    width: 100%;
+    height: 40px;
+}
+
+.qolmasin button {
+    width: 170px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+    border: none;
+    margin-top: 70px;
+}
+
+.qolmasin button:hover {
+    background-color: red;
+    font-size: 22px;
+}
+
+.birinchisi-krish {
+    border: none;
+    height: 50px;
+}
+
+.chiziq {
+    width: 100%;
+    height: 1px;
+    border: 1px solid black;
 }
